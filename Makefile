@@ -8,7 +8,7 @@ FLASK = $(VENV_NAME)/bin/flask
 .PHONY: all setup install run test clean docker help
 
 # Default target
-all: clean setup install lint test run
+all: clean setup install test run
 
 # Create virtual environment and install dependencies
 setup:
